@@ -1,0 +1,40 @@
+{
+  "name": "dont-be-stupid",
+  "version": "1.0.0",
+  "description": "Project Shania 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-shania/dont-be-stupid.git"
+  },
+  "author": "@JouSouza & @VixAndrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/project-shania/dont-be-stupid/issues"
+  },
+  "homepage": "https://github.com/project-shania/dont-be-stupid#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "csurf": "^1.9.0",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.3",
+    "mongoose-unique-validator": "^1.0.5",
+    "morgan": "^1.8.1",
+    "node-cache": "^4.1.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",    
+    "response-time": "^2.3.2"    
+  },
+  "devDependencies": {}
+}
