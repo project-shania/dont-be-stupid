@@ -7,7 +7,7 @@ var express = require('express');
 var app = express();
 
 require('./middlewares')(app);
-// require('./config/dbStart');
+require('./config/dbStart');
 require('./server/api/app')(app);
 
 // passport = passport();
